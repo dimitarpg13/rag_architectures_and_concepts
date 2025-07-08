@@ -24,4 +24,4 @@
 
 [This is why large language models can understand the world, Algorithmic Simplicity, May 2025](https://youtu.be/UKcWu1l_UNw?si=EdXAM3CfdAeSB8CB)
 
-[The Illusion of Thinking, discussing the new Apple AI paper, Dr. Trefor Bazett, July 2025](https://youtu.be/H3YvlRBEx1I?si=eT4jgIQ9Zw397Ze4)
+[The Illusion of Thinking:  Dr. Trefor Bazett discussing the new Apple AI paper, July 2025](https://youtu.be/H3YvlRBEx1I?si=eT4jgIQ9Zw397Ze4)
