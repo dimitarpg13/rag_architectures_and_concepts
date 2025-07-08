@@ -10,6 +10,8 @@
 
 [Training Agentic Reasoners — Will Brown, Prime Intellect, AI Engineer World's Fair, San Francisco, 2025](https://youtu.be/PbHm2qKnu10?si=zc6euwgVQyUSMXjt)
 
+[Building Production RAG Over Complex Documents, Jerry Liu, LlamaIndex, July 2024](https://youtu.be/dI_TmTW9S4c?si=CCP_Oc1vO7pcbnBp)
+
 ### few materials about the current state-of-the-art in LLMs
 
 [This is why large language models can understand the world, Algorithmic Simplicity, May 2025](https://youtu.be/UKcWu1l_UNw?si=EdXAM3CfdAeSB8CB)
