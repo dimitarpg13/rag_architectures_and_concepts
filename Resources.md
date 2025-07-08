@@ -12,6 +12,14 @@
 
 [Building Production RAG Over Complex Documents, Jerry Liu, LlamaIndex, July 2024](https://youtu.be/dI_TmTW9S4c?si=CCP_Oc1vO7pcbnBp)
 
+### GraphRAG materials
+
+[GraphRAG: The Marriage of Knowledge Graphs and RAG, Emil Eifrem, 2024](https://youtu.be/knDDGYHnnSI?si=QDn6UlVb4A6mmncg)
+
+[Graph RAG: Improving RAG with Knowledge Graphs, Prompt Engineering, 2024](https://youtu.be/vX3A96_F3FU?si=KgyS_P_L1d1IEFEK)
+
+[Knowledge Graphs, Aidan Hogan et al, 2021](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/knowledge_graphs/KnowledgeGraphs_Hogan_2021.pdf)
+
 ### few materials about the current state-of-the-art in LLMs
 
 [This is why large language models can understand the world, Algorithmic Simplicity, May 2025](https://youtu.be/UKcWu1l_UNw?si=EdXAM3CfdAeSB8CB)
