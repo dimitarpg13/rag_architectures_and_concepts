@@ -12,6 +12,10 @@
 
 [Building Production RAG Over Complex Documents, Jerry Liu, LlamaIndex, July 2024](https://youtu.be/dI_TmTW9S4c?si=CCP_Oc1vO7pcbnBp)
 
+[RAG vs Fine-Tuning vs Prompt Engineering: Optimizing AI Models, IBM Technology, May 2025](https://youtu.be/zYGDpG-pTho?si=9OWRep15XwpXX6AU)
+
+[RAG vs. CAG: Solving Knowledge Gaps in AI Models, IBM Technology, 2025](https://youtu.be/HdafI0t3sEY?si=9ZE284XsIsekBwR9)
+
 ### GraphRAG materials
 
 [GraphRAG: The Marriage of Knowledge Graphs and RAG, Emil Eifrem, 2024](https://youtu.be/knDDGYHnnSI?si=QDn6UlVb4A6mmncg)
