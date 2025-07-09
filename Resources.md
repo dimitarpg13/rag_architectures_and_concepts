@@ -16,15 +16,19 @@
 
 [RAG vs. CAG: Solving Knowledge Gaps in AI Models, IBM Technology, 2025](https://youtu.be/HdafI0t3sEY?si=9ZE284XsIsekBwR9)
 
-### GraphRAG materials
+### GraphRAG
 
 [GraphRAG: The Marriage of Knowledge Graphs and RAG, Emil Eifrem, 2024](https://youtu.be/knDDGYHnnSI?si=QDn6UlVb4A6mmncg)
 
 [Graph RAG: Improving RAG with Knowledge Graphs, Prompt Engineering, 2024](https://youtu.be/vX3A96_F3FU?si=KgyS_P_L1d1IEFEK)
 
+### Knowledge Graphs
+
 [Knowledge Graphs, Aidan Hogan et al, 2021](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/knowledge_graphs/KnowledgeGraphs_Hogan_2021.pdf)
 
-### few materials about the current state-of-the-art in LLMs
+[Introducing the Knowledge Graph: things, not strings, Google blog, Amit Singhal, 2012](https://blog.google/products/search/introducing-knowledge-graph-things-not/)
+
+### the current state-of-the-art in LLMs
 
 [This is why large language models can understand the world, Algorithmic Simplicity, May 2025](https://youtu.be/UKcWu1l_UNw?si=EdXAM3CfdAeSB8CB)
 
