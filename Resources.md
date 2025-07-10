@@ -20,6 +20,9 @@ notebook on github: https://github.com/langchain-ai/langchain/blob/master/docs/d
 
 [Hands-On with RAG: Step-by-Step Guide to Integrating Retrieval Augmented Generation in LLMs, N. Demir, Medium, 2023](https://blog.demir.io/hands-on-with-rag-step-by-step-guide-to-integrating-retrieval-augmented-generation-in-llms-ac3cb075ab6f)
 
+[Advanced RAG: Implementing Advanced Techniques to Enhance Retrieval-Augmented Generation Systems, 
+Necati Demir, 2025](https://blog.demir.io/advanced-rag-implementing-advanced-techniques-to-enhance-retrieval-augmented-generation-systems-0e07301e46f4)
+
 [How to Combine Knowledge Graphs and Agents? (Emory, Stanford), Discover AI, July 8, 2025 (youtube video)](https://youtu.be/0oDgruiW7Gw?si=kmDlXWVRrGWMYR1f)
 
 [Training Agentic Reasoners — Will Brown, Prime Intellect, AI Engineer World's Fair, San Francisco, 2025 (youtube video)](https://youtu.be/PbHm2qKnu10?si=zc6euwgVQyUSMXjt)
