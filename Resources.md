@@ -2,6 +2,10 @@
 
 ## articles and videos
 
+[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks, Patrick Lewis et al, 2021](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Retrieval-Augmented_Generation_for_Knowledge-Intensive_NLP_Tasks_Lewis_2021.pdf)
+
+[Retrieval-Augmented Generation for Large Language Models: A Survey, Y. Gao et al, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Retrieval-Augmented_Generation_for_Large_Language_Models-A_Survey_Gao_2024.pdf)
+
 [Retrieval-Augmented Generation (RAG) from basics to advanced, Tejpal Kumawat, 2024](https://medium.com/@tejpal.abhyuday/retrieval-augmented-generation-rag-from-basics-to-advanced-a2b068fd576c)
 
 [Retrieval-Augmented Generation (RAG) using LangChain, LlamaIndex, and OpenAI, Prasad Mahamulkar, 2024](https://pub.towardsai.net/introduction-to-retrieval-augmented-generation-rag-using-langchain-and-lamaindex-bd0047628e2a)
