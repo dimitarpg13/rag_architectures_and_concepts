@@ -2,9 +2,17 @@
 
 ## articles and videos
 
-[Contextual chunking for Retrieval Augmented Generation, Lewis Won, 2025](https://dev.to/lewis_won/contextual-chunking-for-retrieval-augmented-generation-3lha)
+[Retrieval-Augmented Generation (RAG) from basics to advanced, Tejpal Kumawat, 2024](https://medium.com/@tejpal.abhyuday/retrieval-augmented-generation-rag-from-basics-to-advanced-a2b068fd576c)
 
-[KERAP: A Knowledge-Enhanced Reasoning Approach for Accurate Zero-shot Diagnosis Prediction Using Multi-agent LLMs, Y. Xie et al, Stanford, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/KERAP-A_Knowledge-Enhanced_Reasoning_Approach_for_Accurate_Zero-shot_Diagnosis_Prediction_Using_Multi-agent_LLMs_Xie_2025.pdf)
+[Retrieval-Augmented Generation (RAG) using LangChain, LlamaIndex, and OpenAI, Prasad Mahamulkar, 2024](https://pub.towardsai.net/introduction-to-retrieval-augmented-generation-rag-using-langchain-and-lamaindex-bd0047628e2a)
+
+[Build a Retrieval Augmented Generation (RAG) App: Part 1, LangChain](https://python.langchain.com/docs/tutorials/rag/)
+
+notebook on github: https://github.com/langchain-ai/langchain/blob/master/docs/docs/tutorials/rag.ipynb
+
+[Build a Retrieval Augmented Generation (RAG) App: Part 2, LangChain](https://python.langchain.com/docs/tutorials/qa_chat_history/)
+
+notebook on github: https://github.com/langchain-ai/langchain/blob/master/docs/docs/tutorials/qa_chat_history.ipynb
 
 [How to Combine Knowledge Graphs and Agents? (Emory, Stanford), Discover AI, July 8, 2025 (youtube video)](https://youtu.be/0oDgruiW7Gw?si=kmDlXWVRrGWMYR1f)
 
@@ -15,6 +23,10 @@
 [RAG vs Fine-Tuning vs Prompt Engineering: Optimizing AI Models, IBM Technology, May 2025 (youtube video)](https://youtu.be/zYGDpG-pTho?si=9OWRep15XwpXX6AU)
 
 [RAG vs. CAG: Solving Knowledge Gaps in AI Models, IBM Technology, 2025 (youtube video)](https://youtu.be/HdafI0t3sEY?si=9ZE284XsIsekBwR9)
+
+[Contextual chunking for Retrieval Augmented Generation, Lewis Won, 2025](https://dev.to/lewis_won/contextual-chunking-for-retrieval-augmented-generation-3lha)
+
+[KERAP: A Knowledge-Enhanced Reasoning Approach for Accurate Zero-shot Diagnosis Prediction Using Multi-agent LLMs, Y. Xie et al, Stanford, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/KERAP-A_Knowledge-Enhanced_Reasoning_Approach_for_Accurate_Zero-shot_Diagnosis_Prediction_Using_Multi-agent_LLMs_Xie_2025.pdf)
 
 ### GraphRAG
 
