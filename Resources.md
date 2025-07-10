@@ -6,9 +6,9 @@
 
 [Retrieval-Augmented Generation for Large Language Models: A Survey, Y. Gao et al, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Retrieval-Augmented_Generation_for_Large_Language_Models-A_Survey_Gao_2024.pdf)
 
-[Retrieval-Augmented Generation (RAG) from basics to advanced, Tejpal Kumawat, 2024](https://medium.com/@tejpal.abhyuday/retrieval-augmented-generation-rag-from-basics-to-advanced-a2b068fd576c)
+[Retrieval-Augmented Generation (RAG) from basics to advanced, Tejpal Kumawat, Medium, 2024](https://medium.com/@tejpal.abhyuday/retrieval-augmented-generation-rag-from-basics-to-advanced-a2b068fd576c)
 
-[Retrieval-Augmented Generation (RAG) using LangChain, LlamaIndex, and OpenAI, Prasad Mahamulkar, 2024](https://pub.towardsai.net/introduction-to-retrieval-augmented-generation-rag-using-langchain-and-lamaindex-bd0047628e2a)
+[Retrieval-Augmented Generation (RAG) using LangChain, LlamaIndex, and OpenAI, Medium, Prasad Mahamulkar, 2024](https://pub.towardsai.net/introduction-to-retrieval-augmented-generation-rag-using-langchain-and-lamaindex-bd0047628e2a)
 
 [Build a Retrieval Augmented Generation (RAG) App: Part 1, LangChain](https://python.langchain.com/docs/tutorials/rag/)
 
@@ -17,6 +17,8 @@ notebook on github: https://github.com/langchain-ai/langchain/blob/master/docs/d
 [Build a Retrieval Augmented Generation (RAG) App: Part 2, LangChain](https://python.langchain.com/docs/tutorials/qa_chat_history/)
 
 notebook on github: https://github.com/langchain-ai/langchain/blob/master/docs/docs/tutorials/qa_chat_history.ipynb
+
+[Hands-On with RAG: Step-by-Step Guide to Integrating Retrieval Augmented Generation in LLMs, N. Demir, Medium, 2023](https://blog.demir.io/hands-on-with-rag-step-by-step-guide-to-integrating-retrieval-augmented-generation-in-llms-ac3cb075ab6f)
 
 [How to Combine Knowledge Graphs and Agents? (Emory, Stanford), Discover AI, July 8, 2025 (youtube video)](https://youtu.be/0oDgruiW7Gw?si=kmDlXWVRrGWMYR1f)
 
