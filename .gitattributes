@@ -2,3 +2,4 @@ articles/Contextual_chunking_for_Retrieval_Augmented_Generation-DEV_Community_Wo
 articles/KERAP-A_Knowledge-Enhanced_Reasoning_Approach_for_Accurate_Zero-shot_Diagnosis_Prediction_Using_Multi-agent_LLMs_Xie_2025.pdf filter=lfs diff=lfs merge=lfs -text
 articles/knowledge_graphs/KnowledgeGraphs_Hogan_2021.pdf filter=lfs diff=lfs merge=lfs -text
 articles/Retrieval-Augmented_Generation_for_Large_Language_Models-A_Survey_Gao_2024.pdf filter=lfs diff=lfs merge=lfs -text
+docs/2023-10-EB-Big-Book-of-MLOps-2nd-Edition.pdf filter=lfs diff=lfs merge=lfs -text
