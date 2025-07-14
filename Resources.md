@@ -53,7 +53,7 @@ related Medium article:
 
 [GraphRAG Explained: Enhancing RAG with Knowledge Graphs, Zilliz, Medium, 2024](https://medium.com/@zilliz_learn/graphrag-explained-enhancing-rag-with-knowledge-graphs-3312065f99e1)
 
-[The Ontology Pipeline: A Semantic Knowledge Management Framework, Jessica Talisman, May 26, 2025](https://substack.com/home/post/p-164506870)
+[The Ontology Pipeline: A Semantic Knowledge Management Framework, substack article, Jessica Talisman, May 26, 2025](https://substack.com/home/post/p-164506870)
 
 ### Knowledge Graphs
 
