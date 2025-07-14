@@ -43,6 +43,14 @@ Necati Demir, 2025](https://blog.demir.io/advanced-rag-implementing-advanced-tec
 
 [Graph RAG: Improving RAG with Knowledge Graphs, Prompt Engineering, 2024 (youtube video)](https://youtu.be/vX3A96_F3FU?si=KgyS_P_L1d1IEFEK)
 
+[Part 1: Building a Knowledge Graph for RAG with LangChain & Neo4j | Step-by-Step Tutorial, Homayoun S., April 14, 2025](https://youtu.be/2ZIyq3LmUB0?si=MfDzt8i7ab3z1HAi)
+
+related github repo: https://github.com/homayounsrp/kg_youtube
+
+related Medium article:
+
+[Building Knowledge Graphs using Neo4j and OpenAI: A Step-by-Step Guide for Creating RAG Knowledge Graphs and Retrieving data from it using LLM, Homayoun S., Spet 8, 2024](https://homayounsrp.medium.com/building-a-knowledge-graph-for-rag-using-neo4j-e69d3441d843)
+
 [GraphRAG Explained: Enhancing RAG with Knowledge Graphs, Zilliz, Medium, 2024](https://medium.com/@zilliz_learn/graphrag-explained-enhancing-rag-with-knowledge-graphs-3312065f99e1)
 
 ### Knowledge Graphs
