@@ -49,7 +49,7 @@ related github repo: https://github.com/homayounsrp/kg_youtube
 
 related Medium article:
 
-[Building Knowledge Graphs using Neo4j and OpenAI: A Step-by-Step Guide for Creating RAG Knowledge Graphs and Retrieving data from it using LLM, Homayoun S., Spet 8, 2024](https://homayounsrp.medium.com/building-a-knowledge-graph-for-rag-using-neo4j-e69d3441d843)
+[Building Knowledge Graphs using Neo4j and OpenAI: A Step-by-Step Guide for Creating RAG Knowledge Graphs and Retrieving data from it using LLM, Homayoun S., Sept 8, 2024](https://homayounsrp.medium.com/building-a-knowledge-graph-for-rag-using-neo4j-e69d3441d843)
 
 [GraphRAG Explained: Enhancing RAG with Knowledge Graphs, Zilliz, Medium, 2024](https://medium.com/@zilliz_learn/graphrag-explained-enhancing-rag-with-knowledge-graphs-3312065f99e1)
 
