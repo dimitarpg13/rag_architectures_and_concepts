@@ -70,7 +70,28 @@ sudo systemctl restart mongod
 
 5. Secure MongoDB: 
 
-* Create a user: Connect to the MongoDB shell using mongosh and create a user with the necessary roles for your application: 
+* Create an Admin user: Connect to the MongoDB shell using mongosh and create an Admin user with the necessary roles for your application:
+
+```bash
+mongosh
+test> use admin
+switched to db admin
+admin> db.createUser( { user: "myUserAdmin", pwd: "xxxxx", roles: [ { role: "userAdminAnyDatabase", db: "admin" }, { role: "readWriteAnyDatabase", db: "admin" } ] } )
+{ ok: 1 }
+```
+* Exit `mongosh` and restart the mongo DB daemon:
+
+```bash
+sudo systemctl restart mongod
+```
+* Connect to the mongo DB using `mongosh` with authentication:
+
+```bash
+ubuntu@ip-x-x-x-x:~$ mongosh --port 27017  --authenticationDatabase "admin" -u "myUserAdmin" -p
+Enter password: ***********
+```
+
+* Create a user with the necessary roles for your application: 
 
 ```bash
 mongo
