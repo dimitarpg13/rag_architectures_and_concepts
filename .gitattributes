@@ -5,3 +5,4 @@ articles/Retrieval-Augmented_Generation_for_Large_Language_Models-A_Survey_Gao_2
 docs/2023-10-EB-Big-Book-of-MLOps-2nd-Edition.pdf filter=lfs diff=lfs merge=lfs -text
 docs/Embeddings_VectorDBs_Search_Module2_Databricks.pdf filter=lfs diff=lfs merge=lfs -text
 articles/vector_db/A_Comprehensive_Survey_on_Vector_Database-Storage_and_Retrieval_Technique_Challenge_Ma_2025.pdf filter=lfs diff=lfs merge=lfs -text
+articles/vector_db/Vector_database_management_systems-Fundamental_concepts_use-cases_and_current_challenges_Taipalus_2024.pdf filter=lfs diff=lfs merge=lfs -text
