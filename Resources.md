@@ -61,6 +61,14 @@ related Medium article:
 
 [Introducing the Knowledge Graph: things, not strings, Google blog, Amit Singhal, 2012](https://blog.google/products/search/introducing-knowledge-graph-things-not/)
 
+### Vector Databases
+
+[Vector database management systems: Fundamental concepts, use-cases, and current challenges, Toni Taipalus, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/vector_db/Vector_database_management_systems-Fundamental_concepts_use-cases_and_current_challenges_Taipalus_2024.pdf)
+
+[A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge, Le Ma et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/vector_db/A_Comprehensive_Survey_on_Vector_Database-Storage_and_Retrieval_Technique_Challenge_Ma_2025.pdf)
+
+[Embeddings, Vector Databases, and Search, Module 2 from Databricks Course "Application through Production", 2023](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/docs/Embeddings_VectorDBs_Search_Module2_Databricks.pdf)
+
 ### the current state-of-the-art in LLMs
 
 [This is why large language models can understand the world, Algorithmic Simplicity, May 2025 (youtube video)](https://youtu.be/UKcWu1l_UNw?si=EdXAM3CfdAeSB8CB)
