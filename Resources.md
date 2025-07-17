@@ -63,6 +63,10 @@ related Medium article:
 
 ### Vector Databases
 
+[Integrate MongoDB with LangChain, MongoDB online article](https://www.mongodb.com/docs/atlas/ai-integrations/langchain/)
+
+[Atlas Vector Search Overview, MongoDB online article](https://www.mongodb.com/docs/atlas/atlas-vector-search/vector-search-overview/)
+
 [Vector database management systems: Fundamental concepts, use-cases, and current challenges, Toni Taipalus, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/vector_db/Vector_database_management_systems-Fundamental_concepts_use-cases_and_current_challenges_Taipalus_2024.pdf)
 
 [A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge, Le Ma et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/vector_db/A_Comprehensive_Survey_on_Vector_Database-Storage_and_Retrieval_Technique_Challenge_Ma_2025.pdf)
