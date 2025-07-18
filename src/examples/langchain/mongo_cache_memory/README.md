@@ -10,3 +10,5 @@
 
 [Cutting LLM Costs with MongoDB Semantic Caching, Langchain (youtube video), 2024](https://youtu.be/kAgSPzlgnDM?si=0EffXgjK5jBFsAvw)
 
+[MongoDB Atlas via Spark notebook on Databricks (databricks document)](https://docs.databricks.com/aws/en/archive/connectors/mongodb)
+
