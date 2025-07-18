@@ -2,7 +2,9 @@
 
 ## Articles
 
-[Caching LLMs Response With MongoDB Atlas and Vector Search, Kanin Kearpimy, MongoDB, 2024](https://www.mongodb.com/developer/products/atlas/llm_caching_with_mongodb/)
+[Caching LLMs Response With MongoDB Atlas and Vector Search, Kanin Kearpimy, MongoDB article, 2024](https://www.mongodb.com/developer/products/atlas/llm_caching_with_mongodb/)
+
+[Add Memory and Semantic Caching to your RAG Applications with LangChain and MongoDB, MongoDB document, 2024](https://www.mongodb.com/docs/atlas/ai-integrations/langchain/memory-semantic-cache/)
 
 ## Self-hosted Mongo DB instance
 
