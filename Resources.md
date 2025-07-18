@@ -85,6 +85,8 @@ related Medium article:
 
 [Comprehensive Guide To Approximate Nearest Neighbors Algorithms, Eyal Trabelsi, Feb 14, 2020, Towards Data Science](https://towardsdatascience.com/comprehensive-guide-to-approximate-nearest-neighbors-algorithms-8b94f057d6b6/)
 
+[Caching LLMs Response With MongoDB Atlas and Vector Search, Kanin Kearpimy, MongoDB, 2024](https://www.mongodb.com/developer/products/atlas/llm_caching_with_mongodb/)
+
 
 ### the current state-of-the-art in LLMs
 
