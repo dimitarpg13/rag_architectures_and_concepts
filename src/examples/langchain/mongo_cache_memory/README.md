@@ -1,5 +1,9 @@
 # RAG with semantic caching and memory using Mongo DB
 
+## Articles
+
+[Caching LLMs Response With MongoDB Atlas and Vector Search, Kanin Kearpimy, MongoDB, 2024](https://www.mongodb.com/developer/products/atlas/llm_caching_with_mongodb/)
+
 ## Self-hosted Mongo DB instance
 
 To self-host MongoDB on Ubuntu, you need to install the MongoDB Community Server, configure it, and secure it. This involves adding the MongoDB repository, installing the necessary packages, starting the service, and potentially configuring remote access and user authentication. 
