@@ -1,5 +1,7 @@
 ## Self-hosted Mongo DB instance
 
+### On Ubuntu 22.04
+
 To self-host MongoDB on Ubuntu, you need to install the MongoDB Community Server, configure it, and secure it. This involves adding the MongoDB repository, installing the necessary packages, starting the service, and potentially configuring remote access and user authentication. 
 Here's a more detailed breakdown:
 
