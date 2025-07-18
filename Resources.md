@@ -73,6 +73,15 @@ related Medium article:
 
 [Embeddings, Vector Databases, and Search, Module 2 from Databricks Course "Application through Production", 2023](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/docs/Embeddings_VectorDBs_Search_Module2_Databricks.pdf)
 
+### Vector Search
+
+[Atlas Vector Search Overview, MongoDB article](https://www.mongodb.com/docs/atlas/atlas-vector-search/vector-search-overview/)
+
+[Approximate Nearest Neighbor Search, MongoDB article](https://www.mongodb.com/resources/basics/ann-search)
+
+[Comprehensive Guide To Approximate Nearest Neighbors Algorithms, Eyal Trabelsi, Feb 14, 2020, Towards Data Science](https://towardsdatascience.com/comprehensive-guide-to-approximate-nearest-neighbors-algorithms-8b94f057d6b6/)
+
+
 ### the current state-of-the-art in LLMs
 
 [This is why large language models can understand the world, Algorithmic Simplicity, May 2025 (youtube video)](https://youtu.be/UKcWu1l_UNw?si=EdXAM3CfdAeSB8CB)
