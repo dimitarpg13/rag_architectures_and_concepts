@@ -75,6 +75,8 @@ related Medium article:
 
 ### Vector Search
 
+[Foundations of Vector Retrieval, Sebastian Bruch, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Foundations_of_Vector_Retrieval_Bruch_2024.pdf)
+
 [Atlas Vector Search Overview, MongoDB article](https://www.mongodb.com/docs/atlas/atlas-vector-search/vector-search-overview/)
 
 [Approximate Nearest Neighbor Search, MongoDB article](https://www.mongodb.com/resources/basics/ann-search)
