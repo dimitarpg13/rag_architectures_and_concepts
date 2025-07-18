@@ -4,6 +4,8 @@
 
 [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks, Patrick Lewis et al, 2021](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Retrieval-Augmented_Generation_for_Knowledge-Intensive_NLP_Tasks_Lewis_2021.pdf)
 
+[Survey of Vector Database Management Systems, JJ Pan et al, 2023](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Survey_of_Vector_Database_Management_Systems_Pan_2023.pdf)
+
 [Retrieval-Augmented Generation for Large Language Models: A Survey, Y. Gao et al, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Retrieval-Augmented_Generation_for_Large_Language_Models-A_Survey_Gao_2024.pdf)
 
 [Retrieval-Augmented Generation (RAG) from basics to advanced, Tejpal Kumawat, Medium, 2024](https://medium.com/@tejpal.abhyuday/retrieval-augmented-generation-rag-from-basics-to-advanced-a2b068fd576c)
