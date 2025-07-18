@@ -8,3 +8,5 @@
 
 [Add Memory and Semantic Caching to your RAG Applications with LangChain and MongoDB, MongoDB document, 2024](https://www.mongodb.com/docs/atlas/ai-integrations/langchain/memory-semantic-cache/)
 
+[Cutting LLM Costs with MongoDB Semantic Caching, Langchain (youtube video), 2024](https://youtu.be/kAgSPzlgnDM?si=0EffXgjK5jBFsAvw)
+
