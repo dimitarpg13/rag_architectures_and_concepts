@@ -90,8 +90,10 @@ related Medium article:
 
 ### the current state-of-the-art in LLMs
 
+[Small Language Models are the Future of Agentic AI, Peter Belcak et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Small_Language_Models_are_the_Future_of_Agentic_AI_Belcak_2025.pdf)
+
+[GNN::GAT on Knowledge Graphs w/ GraphRAG for LLM Reasoning, Discover AI, 2025 (youtube video)](https://youtu.be/KH_xn8yycDc?si=jR_ycJGQ3hHCdfZj)
+
 [This is why large language models can understand the world, Algorithmic Simplicity, May 2025 (youtube video)](https://youtu.be/UKcWu1l_UNw?si=EdXAM3CfdAeSB8CB)
 
 [The Illusion of Thinking:  Dr. Trefor Bazett discussing the new Apple AI paper, July 2025 (youtube video)](https://youtu.be/H3YvlRBEx1I?si=eT4jgIQ9Zw397Ze4)
-
-[GNN::GAT on KG w/ GraphRAG for LLM Reasoning, DIscover AI, 2025 (youtube video)](https://youtu.be/KH_xn8yycDc?si=jR_ycJGQ3hHCdfZj)
