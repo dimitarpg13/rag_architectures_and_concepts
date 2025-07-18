@@ -1,4 +1,4 @@
-# RAG with semantic caching and memory using Mongo DB
+# RAG with semantic caching and memory using Mongo Atlas DB
 
 ## Articles
 
