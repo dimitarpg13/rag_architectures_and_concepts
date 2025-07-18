@@ -8,6 +8,8 @@
 
 [Caching LLMs Response With MongoDB Atlas and Vector Search, Kanin Kearpimy, MongoDB article, 2024](https://www.mongodb.com/developer/products/atlas/llm_caching_with_mongodb/)
 
+[Caching Models supported by MongoDB Atlas, MongoDB article, 2024](https://python.langchain.com/docs/integrations/providers/mongodb_atlas/)
+
 [Add Memory and Semantic Caching to your RAG Applications with LangChain and MongoDB, MongoDB document, 2024](https://www.mongodb.com/docs/atlas/ai-integrations/langchain/memory-semantic-cache/)
 
 [Cutting LLM Costs with MongoDB Semantic Caching, Langchain (youtube video), 2024](https://youtu.be/kAgSPzlgnDM?si=0EffXgjK5jBFsAvw)
