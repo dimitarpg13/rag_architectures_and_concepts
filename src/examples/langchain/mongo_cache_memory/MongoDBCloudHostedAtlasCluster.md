@@ -3,6 +3,27 @@
 
 ![Figure: Mnogo Atlas Search Index Overview tab](images/mongo_atlas_search_index_overview.png)
 
+
+This search index parses the data in langchain_chatbot.semantic_cache and has the following configurations.
+```json
+
+{
+  "mappings": {
+    "fields": {
+      "embedding": {
+        "dimensions": 1536,
+        "similarity": "cosine",
+        "type": "knnVector"
+      },
+      "llm_string": {
+        "type": "token"
+      }
+    }
+  }
+}
+```
+
+
 ### Note if running the main notebook on Google Colab
 
 When running the main notebook [mongo_langchain_cache_memory.ipynb](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/src/examples/langchain/mongo_cache_memory/mongodb_langchain_cache_memory.ipynb)
