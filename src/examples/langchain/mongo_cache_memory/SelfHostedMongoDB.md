@@ -132,12 +132,3 @@ coll=db.data
 coll.insert_one({"name": "document1", "value": 10})
 >> InsertOneResult(ObjectId('687a58fb7aa580cacfec08b5'), acknowledged=True)
 ```
-
-7. Consider Security Best Practices:
-
-* Refer to the MongoDB Security Checklist for comprehensive security recommendations.
-
-* Regularly update MongoDB to the latest stable version.
-
-* Monitor your MongoDB instance for suspicious activity. 
-
