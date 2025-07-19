@@ -132,3 +132,9 @@ db.createUser({user: "your_username", pwd: "your_password", roles: [ { role: "re
 >>> coll.insert_one({"name": "document1", "value": 10})
 InsertOneResult(ObjectId('687a58fb7aa580cacfec08b5'), acknowledged=True)
 ```
+
+### Note if you are deploying on AWS EC2
+
+If you are deploying MongoDB server / cluster on AWS EC2 make sure 
+
+![Figure: Security Group Inbound Rule for port 27017](images/security_group_inbound_rule_port_27017.png)
