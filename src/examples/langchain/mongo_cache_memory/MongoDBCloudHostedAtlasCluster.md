@@ -2,10 +2,17 @@
 
 <img src="images/mongo_atlas_free_tier.png" width="60%" alt="Figure: Mnogo Atlas Free Tier">
 
+Figure: Getting MongoDB Atlas Free Tier
+
+
+
 <img src="images/atlas_cluster_langchain_chatbot.data.png" width="90%" alt="Figure: Mnogo Atlas Free Tier">
+
+Figure: The collection `data` of the newly created DB `langchain_chatbot`
 
 ![Figure: Mnogo Atlas Search Index Overview tab](images/mongo_atlas_search_index_overview.png)
 
+Figure: The Atlas Search Index `vector_index` created over the collection `semantic_cache`
 
 This search index parses the data in langchain_chatbot.semantic_cache and has the following configurations.
 ```json
