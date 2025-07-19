@@ -126,9 +126,9 @@ db.createUser({user: "your_username", pwd: "your_password", roles: [ { role: "re
 * connect to MongoDB from python client as:
 
 ```python
-MONGODB_URI = "mongodb://your_username:your_password@your_server_ip:27017/your_database"
-client = pymongo.MongoClient(MONGODB_URI)
-coll=db.data
-coll.insert_one({"name": "document1", "value": 10})
->> InsertOneResult(ObjectId('687a58fb7aa580cacfec08b5'), acknowledged=True)
+>>> MONGODB_URI = "mongodb://your_username:your_password@your_server_ip:27017/your_database"
+>>> client = pymongo.MongoClient(MONGODB_URI)
+>>> coll=db.data
+>>> coll.insert_one({"name": "document1", "value": 10})
+InsertOneResult(ObjectId('687a58fb7aa580cacfec08b5'), acknowledged=True)
 ```
