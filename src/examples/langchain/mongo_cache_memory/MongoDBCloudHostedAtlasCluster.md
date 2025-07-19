@@ -6,7 +6,7 @@ Figure: Getting MongoDB Atlas Free Tier
 
 
 
-<img src="images/atlas_cluster_langchain_chatbot.data.png" width="90%" alt="Figure: Mnogo Atlas Free Tier">
+<img src="images/atlas_cluster_langchain_chatbot.data.png" width="100%" alt="Figure: Mnogo Atlas Free Tier">
 
 Figure: The collection `data` of the newly created DB `langchain_chatbot`
 
