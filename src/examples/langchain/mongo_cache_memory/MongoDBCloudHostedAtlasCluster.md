@@ -4,13 +4,15 @@
 
 Figure: Getting MongoDB Atlas Free Tier
 
+<img src="images/atlas_cluster_overview.png" width="60%" alt="Figure: Mnogo Atlas Free Tier Cluster Overview">
 
+Figure: MongoDB Atlas Free Tier Cluster Overview
 
-<img src="images/atlas_cluster_langchain_chatbot.data.png" width="100%" alt="Figure: Mnogo Atlas Free Tier">
+<img src="images/atlas_cluster_langchain_chatbot.data.png" width="100%" alt="Figure: Mnogo Atlas Collection `data` tab">
 
 Figure: The collection `data` of the newly created DB `langchain_chatbot`
 
-<img src="images/atlas_cluster_langchain_chatbot.semantic_cache.png" width="100%" alt="Figure: Mnogo Atlas Free Tier">
+<img src="images/atlas_cluster_langchain_chatbot.semantic_cache.png" width="100%" alt="Figure: Mnogo Atlas Collection `semantic_cache` tab">
 
 Figure: The collection `semantic_cache` of the newly created DB `langchain_chatbot`
 
