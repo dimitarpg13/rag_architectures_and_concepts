@@ -1,5 +1,7 @@
 ## Self-hosted Mongo DB instance
 
+### On Ubuntu 22.04
+
 To self-host MongoDB on Ubuntu, you need to install the MongoDB Community Server, configure it, and secure it. This involves adding the MongoDB repository, installing the necessary packages, starting the service, and potentially configuring remote access and user authentication. 
 Here's a more detailed breakdown:
 
@@ -58,7 +60,14 @@ sudo systemctl status mongod
 
 * Bind IP: By default, MongoDB only binds to the local interface (`127.0.0.1`). To allow remote connections, you need to change the bindIP setting to include the server's IP address or `0.0.0.0` to listen on all interfaces.
   
-* Enable Authentication: For enhanced security, enable authentication by setting security.authorization to enabled.
+* Make sure the Authentication is disabled:
+
+```bash
+sudo vim /etc/mongod.conf
+
+# security:
+#  authorization: enabled
+```
   
 * Restart the service: After making changes to the configuration, restart the MongoDB service:
 
@@ -77,7 +86,17 @@ switched to db admin
 admin> db.createUser( { user: "myUserAdmin", pwd: "xxxxx", roles: [ { role: "userAdminAnyDatabase", db: "admin" }, { role: "readWriteAnyDatabase", db: "admin" } ] } )
 { ok: 1 }
 ```
-* Exit `mongosh` and restart the mongo DB daemon:
+* Exit `mongosh`
+
+* Enable Authentication: For enhanced security, enable authentication by setting security.authorization to enabled.
+
+```bash
+sudo vim /etc/mongod.conf
+
+security:
+   authorization: enabled
+```  
+* Restart the service: After making changes to the configuration, restart the MongoDB service:
 
 ```bash
 sudo systemctl restart mongod
@@ -92,7 +111,6 @@ Enter password: ***********
 * Create a user with the necessary roles for your application: 
 
 ```bash
-mongo
 use your_database
 db.createUser({user: "your_username", pwd: "your_password", roles: [ { role: "readWrite", db: "your_database" } ]})
 ```
@@ -105,11 +123,18 @@ db.createUser({user: "your_username", pwd: "your_password", roles: [ { role: "re
 
 * Example connection string: `mongodb://your_username:your_password@your_server_ip:27017/your_database `
 
-7. Consider Security Best Practices:
+* connect to MongoDB from python client as:
 
-* Refer to the MongoDB Security Checklist for comprehensive security recommendations.
+```python
+>>> MONGODB_URI = "mongodb://your_username:your_password@your_server_ip:27017/your_database"
+>>> client = pymongo.MongoClient(MONGODB_URI)
+>>> coll=db.data
+>>> coll.insert_one({"name": "document1", "value": 10})
+InsertOneResult(ObjectId('687a58fb7aa580cacfec08b5'), acknowledged=True)
+```
 
-* Regularly update MongoDB to the latest stable version.
+### Note if you are deploying on AWS EC2
 
-* Monitor your MongoDB instance for suspicious activity. 
+If you are deploying MongoDB server / cluster on AWS EC2 make sure 
 
+![Figure: Security Group Inbound Rule for port 27017](images/security_group_inbound_rule_port_27017.png)
