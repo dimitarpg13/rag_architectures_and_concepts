@@ -2,6 +2,8 @@
 
 <img src="images/mongo_atlas_free_tier.png" width="60%" alt="Figure: Mnogo Atlas Free Tier">
 
+<img src="images/atlas_cluster_langchain_chatbot.data.png" width="90%" alt="Figure: Mnogo Atlas Free Tier">
+
 ![Figure: Mnogo Atlas Search Index Overview tab](images/mongo_atlas_search_index_overview.png)
 
 
