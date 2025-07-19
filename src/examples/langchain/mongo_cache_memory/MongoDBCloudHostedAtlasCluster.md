@@ -10,6 +10,10 @@ Figure: Getting MongoDB Atlas Free Tier
 
 Figure: The collection `data` of the newly created DB `langchain_chatbot`
 
+<img src="images/atlas_cluster_langchain_chatbot.semantic_cache.png" width="100%" alt="Figure: Mnogo Atlas Free Tier">
+
+Figure: The collection `semantic_cache` of the newly created DB `langchain_chatbot`
+
 ![Figure: Mnogo Atlas Search Index Overview tab](images/mongo_atlas_search_index_overview.png)
 
 Figure: The Atlas Search Index `vector_index` created over the collection `semantic_cache`
