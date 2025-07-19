@@ -60,7 +60,14 @@ sudo systemctl status mongod
 
 * Bind IP: By default, MongoDB only binds to the local interface (`127.0.0.1`). To allow remote connections, you need to change the bindIP setting to include the server's IP address or `0.0.0.0` to listen on all interfaces.
   
-* Enable Authentication: For enhanced security, enable authentication by setting security.authorization to enabled.
+* Make sure the Authentication is disabled:
+
+```bash
+sudo vim /etc/mongod.conf
+
+# security:
+#  authorization: enabled
+```
   
 * Restart the service: After making changes to the configuration, restart the MongoDB service:
 
@@ -79,7 +86,17 @@ switched to db admin
 admin> db.createUser( { user: "myUserAdmin", pwd: "xxxxx", roles: [ { role: "userAdminAnyDatabase", db: "admin" }, { role: "readWriteAnyDatabase", db: "admin" } ] } )
 { ok: 1 }
 ```
-* Exit `mongosh` and restart the mongo DB daemon:
+* Exit `mongosh`
+
+* Enable Authentication: For enhanced security, enable authentication by setting security.authorization to enabled.
+
+```bash
+sudo vim /etc/mongod.conf
+
+security:
+   authorization: enabled
+```  
+* Restart the service: After making changes to the configuration, restart the MongoDB service:
 
 ```bash
 sudo systemctl restart mongod
