@@ -4,7 +4,7 @@
 
 Figure: Getting MongoDB Atlas Free Tier
 
-<img src="images/atlas_cluster_overview.png" width="60%" alt="Figure: Mnogo Atlas Free Tier Cluster Overview">
+<img src="images/atlas_cluster_overview.png" width="100%" alt="Figure: Mnogo Atlas Free Tier Cluster Overview">
 
 Figure: MongoDB Atlas Free Tier Cluster Overview
 
