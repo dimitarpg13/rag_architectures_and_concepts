@@ -135,6 +135,6 @@ InsertOneResult(ObjectId('687a58fb7aa580cacfec08b5'), acknowledged=True)
 
 ### Note if you are deploying on AWS EC2
 
-If you are deploying MongoDB server / cluster on AWS EC2 make sure 
+If you are deploying MongoDB server / cluster on AWS EC2 make sure there is an inbound rule for port 27017 in the relevant security group for the AWS EC2 instance as shown on the Figure below:
 
 ![Figure: Security Group Inbound Rule for port 27017](images/security_group_inbound_rule_port_27017.png)
