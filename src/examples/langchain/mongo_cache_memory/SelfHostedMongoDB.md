@@ -111,7 +111,6 @@ Enter password: ***********
 * Create a user with the necessary roles for your application: 
 
 ```bash
-mongo
 use your_database
 db.createUser({user: "your_username", pwd: "your_password", roles: [ { role: "readWrite", db: "your_database" } ]})
 ```
@@ -123,6 +122,16 @@ db.createUser({user: "your_username", pwd: "your_password", roles: [ { role: "re
 * Use mongosh: You can connect to your MongoDB instance using mongosh from the server itself or from a remote machine if you've enabled remote access.
 
 * Example connection string: `mongodb://your_username:your_password@your_server_ip:27017/your_database `
+
+* connect to MongoDB from python client as:
+
+```python
+MONGODB_URI = "mongodb://your_username:your_password@your_server_ip:27017/your_database"
+client = pymongo.MongoClient(MONGODB_URI)
+coll=db.data
+coll.insert_one({"name": "document1", "value": 10})
+>> InsertOneResult(ObjectId('687a58fb7aa580cacfec08b5'), acknowledged=True)
+```
 
 7. Consider Security Best Practices:
 
