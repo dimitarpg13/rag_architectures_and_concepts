@@ -92,6 +92,10 @@ related Medium article:
 
 [Small Language Models are the Future of Agentic AI, Peter Belcak et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Small_Language_Models_are_the_Future_of_Agentic_AI_Belcak_2025.pdf)
 
+[LLMs Can Now Self-Evolve At Test Time Using Reinforcement Learning, Ashish Bamania, July 2025](https://ai.gopubby.com/llms-can-now-self-evolve-at-test-time-using-reinforcement-learning-e769ee6d3f86)
+
+[TTRL: Test-Time Reinforcement Learning, Y. Zuo et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/TTRL-Test-Time_Reinforcement_Learning_Zuo_2025.pdf)
+
 [GNN::GAT on Knowledge Graphs w/ GraphRAG for LLM Reasoning, Discover AI, 2025 (youtube video)](https://youtu.be/KH_xn8yycDc?si=jR_ycJGQ3hHCdfZj)
 
 [This is why large language models can understand the world, Algorithmic Simplicity, May 2025 (youtube video)](https://youtu.be/UKcWu1l_UNw?si=EdXAM3CfdAeSB8CB)
