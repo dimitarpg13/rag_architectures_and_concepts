@@ -16,6 +16,10 @@ Figure: The collection `data` of the newly created DB `langchain_chatbot`
 
 Figure: The collection `semantic_cache` of the newly created DB `langchain_chatbot`
 
+<img src="images/atlas_search_overview.png" width="100%" alt="Figure: Mnogo Atlas Search Overview">
+
+Figure: The Atlas Search Overview tab
+
 ![Figure: Mnogo Atlas Search Index Overview tab](images/mongo_atlas_search_index_overview.png)
 
 Figure: The Atlas Search Index `vector_index` created over the collection `semantic_cache`
