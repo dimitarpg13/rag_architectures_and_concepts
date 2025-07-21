@@ -90,6 +90,8 @@ related Medium article:
 
 ### the current state-of-the-art in LLMs
 
+[A Survey of Context Engineering for Large Language Models, L. Mei et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/context_engineering/A_Survey_of_Context_Engineering_for_Large_Language_Models_Mei_2025.pdf)
+
 [Small Language Models are the Future of Agentic AI, Peter Belcak et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Small_Language_Models_are_the_Future_of_Agentic_AI_Belcak_2025.pdf)
 
 [LLMs Can Now Self-Evolve At Test Time Using Reinforcement Learning, Ashish Bamania, July 2025](https://ai.gopubby.com/llms-can-now-self-evolve-at-test-time-using-reinforcement-learning-e769ee6d3f86)
