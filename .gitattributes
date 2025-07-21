@@ -8,3 +8,4 @@ articles/vector_db/A_Comprehensive_Survey_on_Vector_Database-Storage_and_Retriev
 articles/vector_db/Vector_database_management_systems-Fundamental_concepts_use-cases_and_current_challenges_Taipalus_2024.pdf filter=lfs diff=lfs merge=lfs -text
 articles/Survey_of_Vector_Database_Management_Systems_Pan_2023.pdf filter=lfs diff=lfs merge=lfs -text
 articles/Foundations_of_Vector_Retrieval_Bruch_2024.pdf filter=lfs diff=lfs merge=lfs -text
+articles/context_engineering/A_Survey_of_Context_Engineering_for_Large_Language_Models_Mei_2025.pdf filter=lfs diff=lfs merge=lfs -text
