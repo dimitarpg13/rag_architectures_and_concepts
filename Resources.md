@@ -63,6 +63,8 @@ related Medium article:
 
 [Introducing the Knowledge Graph: things, not strings, Google blog, Amit Singhal, 2012](https://blog.google/products/search/introducing-knowledge-graph-things-not/)
 
+memgraph: open source graph DB compatible with Neo4J: https://github.com/memgraph/memgraph
+
 ### Vector Databases
 
 [Integrate MongoDB with LangChain, MongoDB online article](https://www.mongodb.com/docs/atlas/ai-integrations/langchain/)
