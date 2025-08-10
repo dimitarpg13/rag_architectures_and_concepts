@@ -92,6 +92,8 @@ memgraph: open source graph DB compatible with Neo4J: https://github.com/memgrap
 
 ### the current state-of-the-art in LLMs
 
+[The Big LLM Architecture Comparison: From DeepSeek-V3 to Kimi K2: A Look At Modern LLM Architecture Design, Sebastian Raschka, Jul 19, 2025](https://sebastianraschka.com/blog/2025/the-big-llm-architecture-comparison.html)
+
 [Small Language Models are the Future of Agentic AI, Peter Belcak et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Small_Language_Models_are_the_Future_of_Agentic_AI_Belcak_2025.pdf)
 
 [LLMs Can Now Self-Evolve At Test Time Using Reinforcement Learning, Ashish Bamania, July 2025](https://ai.gopubby.com/llms-can-now-self-evolve-at-test-time-using-reinforcement-learning-e769ee6d3f86)
