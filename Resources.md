@@ -43,9 +43,9 @@ Necati Demir, 2025](https://blog.demir.io/advanced-rag-implementing-advanced-tec
 
 [The 5 Levels Of Text Splitting For Retrieval, Greg Kamradt, August, 2024 (youtube video)](https://youtu.be/8OJC21T2SL4?si=wAVfOfdZ9hs0W1Qq)
 
-[Chunking Strategies in RAG: Optimising Data for Advanced AI Responses, Mervin Praison, Aug 2024](https://www.youtube.com/watch?v=pIGRwMjhMaQ)
+[Chunking Strategies in RAG: Optimising Data for Advanced AI Responses, Mervin Praison, Aug 2024 (youtube video)](https://www.youtube.com/watch?v=pIGRwMjhMaQ)
 
-[Semantic Chunking for RAG, James Briggs, May 4, 2024](https://www.youtube.com/watch?v=TcRRfcbsApw)
+[Semantic Chunking for RAG, James Briggs, May 4, 2024 (youtube video)](https://www.youtube.com/watch?v=TcRRfcbsApw)
 
 [Is Semantic Chunking Worth the Computational Cost? R. Qu et al, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/chunking/Is_Semantic_Chunking_Worth_the_Computational_Cost_Qu_2024.pdf)
 
