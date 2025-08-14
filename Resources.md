@@ -39,6 +39,16 @@ Necati Demir, 2025](https://blog.demir.io/advanced-rag-implementing-advanced-tec
 
 [KERAP: A Knowledge-Enhanced Reasoning Approach for Accurate Zero-shot Diagnosis Prediction Using Multi-agent LLMs, Y. Xie et al, Stanford, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/KERAP-A_Knowledge-Enhanced_Reasoning_Approach_for_Accurate_Zero-shot_Diagnosis_Prediction_Using_Multi-agent_LLMs_Xie_2025.pdf)
 
+### Text Splitting and Chunking Strategies
+
+[The 5 Levels Of Text Splitting For Retrieval, Greg Kamradt, August, 2024 (youtube video)](https://youtu.be/8OJC21T2SL4?si=wAVfOfdZ9hs0W1Qq)
+
+[Chunking Strategies in RAG: Optimising Data for Advanced AI Responses, Mervin Praison, Aug 2024](https://www.youtube.com/watch?v=pIGRwMjhMaQ)
+
+[Semantic Chunking for RAG, James Briggs, May 4, 2024](https://www.youtube.com/watch?v=TcRRfcbsApw)
+
+[Is Semantic Chunking Worth the Computational Cost? R. Qu et al, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/chunking/Is_Semantic_Chunking_Worth_the_Computational_Cost_Qu_2024.pdf)
+
 ### GraphRAG
 
 [GraphRAG: The Marriage of Knowledge Graphs and RAG, Emil Eifrem, 2024 (youtube video)](https://youtu.be/knDDGYHnnSI?si=QDn6UlVb4A6mmncg)
