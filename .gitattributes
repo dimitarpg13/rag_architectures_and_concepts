@@ -12,3 +12,4 @@ articles/context_engineering/A_Survey_of_Context_Engineering_for_Large_Language_
 articles/knowledge_graphs/Building-Knowledge-Graphs-Practitioners-Guide-OReilly-book.pdf filter=lfs diff=lfs merge=lfs -text
 articles/A_Survey_of_Self-Evolving_Agents-On_Path_to_Artificial_Super_Intelligence_Gao_2025.pdf filter=lfs diff=lfs merge=lfs -text
 articles/Graph-R1-Towards_Agentic_GraphRAG_Framework_via_End-to-end_Reinforcement_Learning_Luo_2025.pdf filter=lfs diff=lfs merge=lfs -text
+docs/Why_When_and_How_to_Fine-Tune_a_Custom_Embedding_Model_Weaviate.pdf filter=lfs diff=lfs merge=lfs -text
