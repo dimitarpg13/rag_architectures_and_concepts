@@ -49,6 +49,21 @@ Necati Demir, 2025](https://blog.demir.io/advanced-rag-implementing-advanced-tec
 
 [Is Semantic Chunking Worth the Computational Cost? R. Qu et al, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/chunking/Is_Semantic_Chunking_Worth_the_Computational_Cost_Qu_2024.pdf)
 
+
+### Multi-Turn Conversations and Multi-Turn Reasoning
+
+[SimpleTIR: End-to-End Reinforcement Learning for Multi-Turn Tool-Integrated Reasoning, Z. Xue et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/multi-turn_reasoning/SimpleTIR-End-to-End_Reinforcement_Learning_for_Multi-Turn_Tool-Integrated_Reasoning_Xue_2025.pdf)
+
+related repo: https://github.com/ltzheng/SimpleTIR
+
+[A Simple "Try Again" Can Elicit Multi-turn LLM Reasoning, L. Liu et al, Imperial College, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/multi-turn_reasoning/A_Simple_Try_Again_Can_Elicit_Multi-Turn_LLM_Reasoning_Liu_2025.pdf)
+
+related repo: https://github.com/lichengliu03/unary-feedback
+
+[Reinforcing Multi-Turn Reasoning in LLM Agents via Turn-Level Credit Assignment, S. Zeng et al, U. of Minnesotta, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/multi-turn_reasoning/Reinforcing_Multi-Turn_Reasoning_in_LLM_Agents_via_Turn-Level_Credit_Assignment_Zheng_2025.pdf)
+
+related repo: https://github.com/SiliangZeng/Multi-Turn-RL-Agent
+
 ### GraphRAG
 
 [GraphRAG: The Marriage of Knowledge Graphs and RAG, Emil Eifrem, 2024 (youtube video)](https://youtu.be/knDDGYHnnSI?si=QDn6UlVb4A6mmncg)
