@@ -15,3 +15,4 @@ articles/Graph-R1-Towards_Agentic_GraphRAG_Framework_via_End-to-end_Reinforcemen
 docs/Why_When_and_How_to_Fine-Tune_a_Custom_Embedding_Model_Weaviate.pdf filter=lfs diff=lfs merge=lfs -text
 docs/Git_is_for_data_Low_CIDR_2023.pdf filter=lfs diff=lfs merge=lfs -text
 articles/chunking/Is_Semantic_Chunking_Worth_the_Computational_Cost_Qu_2024.pdf filter=lfs diff=lfs merge=lfs -text
+articles/multi-turn_reasoning/SimpleTIR-End-to-End_Reinforcement_Learning_for_Multi-Turn_Tool-Integrated_Reasoning_Xue_2025.pdf filter=lfs diff=lfs merge=lfs -text
