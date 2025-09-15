@@ -134,3 +134,5 @@ memgraph: open source graph DB compatible with Neo4J: https://github.com/memgrap
 [A Survey of Context Engineering for Large Language Models, L. Mei et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/context_engineering/A_Survey_of_Context_Engineering_for_Large_Language_Models_Mei_2025.pdf)
 
 [A Survey of Self-Evolving Agents: On Path to Artificial Super Intelligence, H. Gao et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/A_Survey_of_Self-Evolving_Agents-On_Path_to_Artificial_Super_Intelligence_Gao_2025.pdf)
+
+[Memory Augmented Generation: Adding Writable Memory to LLMs, blog at mag.bearblog.dev, 2025](https://mag.bearblog.dev/memory-augmented-generation-adding-writable-memory-to-llms/)
