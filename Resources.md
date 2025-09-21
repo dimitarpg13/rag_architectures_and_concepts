@@ -41,9 +41,9 @@ Necati Demir, 2025](https://blog.demir.io/advanced-rag-implementing-advanced-tec
 
 [7 Layered Agentic AI Reference Architecture, Ken Huang, Chapter 2 from Agentic AI Book, Dec 21, 2024](https://kenhuangus.medium.com/7-layered-agentic-ai-reference-architecture-20276f83b7ee)
 
-[Building AI Agents with Google’s Agent Development Kit (ADK) as MCP Client — A Deep Dive (Full Code), Apr 11, 2025](https://medium.com/google-cloud/building-ai-agents-with-googles-agent-development-kit-adk-as-mcp-client-a-deep-dive-full-54d683713afe)
+[Building AI Agents with Google’s Agent Development Kit (ADK) as MCP Client — A Deep Dive (Full Code), Arjun Prabhulal, Apr 11, 2025](https://medium.com/google-cloud/building-ai-agents-with-googles-agent-development-kit-adk-as-mcp-client-a-deep-dive-full-54d683713afe)
 
-[Building Multi-Agent AI App with Google’s A2A (Agent2Agent) Protocol, ADK, and MCP, Apr 18, 2025](https://medium.com/ai-cloud-lab/building-multi-agent-ai-app-with-googles-a2a-agent2agent-protocol-adk-and-mcp-a-deep-a94de2237200)
+[Building Multi-Agent AI App with Google’s A2A (Agent2Agent) Protocol, ADK, and MCP, Arjun Prabhulal, Apr 18, 2025](https://medium.com/ai-cloud-lab/building-multi-agent-ai-app-with-googles-a2a-agent2agent-protocol-adk-and-mcp-a-deep-a94de2237200)
 
 ### Text Splitting and Chunking Strategies
 
