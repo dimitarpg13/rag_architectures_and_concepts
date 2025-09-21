@@ -39,6 +39,10 @@ Necati Demir, 2025](https://blog.demir.io/advanced-rag-implementing-advanced-tec
 
 [KERAP: A Knowledge-Enhanced Reasoning Approach for Accurate Zero-shot Diagnosis Prediction Using Multi-agent LLMs, Y. Xie et al, Stanford, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/KERAP-A_Knowledge-Enhanced_Reasoning_Approach_for_Accurate_Zero-shot_Diagnosis_Prediction_Using_Multi-agent_LLMs_Xie_2025.pdf)
 
+[7 Layered Agentic AI Reference Architecture, Ken Huang, Chapter 2 from Agentic AI Book, Dec 21, 2024](https://kenhuangus.medium.com/7-layered-agentic-ai-reference-architecture-20276f83b7ee)
+
+[Building Multi-Agent AI App with Google’s A2A (Agent2Agent) Protocol, ADK, and MCP, Apr 18, 2025](https://medium.com/ai-cloud-lab/building-multi-agent-ai-app-with-googles-a2a-agent2agent-protocol-adk-and-mcp-a-deep-a94de2237200)
+
 ### Text Splitting and Chunking Strategies
 
 [The 5 Levels Of Text Splitting For Retrieval, Greg Kamradt, August, 2024 (youtube video)](https://youtu.be/8OJC21T2SL4?si=wAVfOfdZ9hs0W1Qq)
