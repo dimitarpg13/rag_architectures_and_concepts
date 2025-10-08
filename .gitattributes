@@ -18,3 +18,4 @@ articles/chunking/Is_Semantic_Chunking_Worth_the_Computational_Cost_Qu_2024.pdf 
 articles/multi-turn_reasoning/SimpleTIR-End-to-End_Reinforcement_Learning_for_Multi-Turn_Tool-Integrated_Reasoning_Xue_2025.pdf filter=lfs diff=lfs merge=lfs -text
 articles/multi-turn_reasoning/A_Simple_Try_Again_Can_Elicit_Multi-Turn_LLM_Reasoning_Liu_2025.pdf filter=lfs diff=lfs merge=lfs -text
 articles/multi-turn_reasoning/Reinforcing_Multi-Turn_Reasoning_in_LLM_Agents_via_Turn-Level_Credit_Assignment_Zheng_2025.pdf filter=lfs diff=lfs merge=lfs -text
+articles/vector_retrieval/Forget_RAG_the_Future_is_RAG-Fusion_by_Adrian_Raudaschl_TDS_2023.pdf filter=lfs diff=lfs merge=lfs -text
