@@ -47,6 +47,10 @@ Necati Demir, 2025](https://blog.demir.io/advanced-rag-implementing-advanced-tec
 
 [Building Multi-Agent AI App with Google’s A2A (Agent2Agent) Protocol, ADK, and MCP, Arjun Prabhulal, Apr 18, 2025](https://medium.com/ai-cloud-lab/building-multi-agent-ai-app-with-googles-a2a-agent2agent-protocol-adk-and-mcp-a-deep-a94de2237200)
 
+[How we built our multi-agent research system, Anthropic blog, June 13, 2025](https://www.anthropic.com/engineering/multi-agent-research-system)
+
+[The RAG Obituary: Killed by Agents, Buried by Context Windows, Nicolas Bustamante's blog, Oct 1th, 2025](https://www.nicolasbustamante.com/p/the-rag-obituary-killed-by-agents)
+
 ### Text Splitting and Chunking Strategies
 
 [The 5 Levels Of Text Splitting For Retrieval, Greg Kamradt, August, 2024 (youtube video)](https://youtu.be/8OJC21T2SL4?si=wAVfOfdZ9hs0W1Qq)
@@ -56,6 +60,14 @@ Necati Demir, 2025](https://blog.demir.io/advanced-rag-implementing-advanced-tec
 [Semantic Chunking for RAG, James Briggs, May 4, 2024 (youtube video)](https://www.youtube.com/watch?v=TcRRfcbsApw)
 
 [Is Semantic Chunking Worth the Computational Cost? R. Qu et al, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/chunking/Is_Semantic_Chunking_Worth_the_Computational_Cost_Qu_2024.pdf)
+
+### Retrieval Algorithms
+
+[Forget RAG, the Future is RAG-Fusion, Adrian H. Raudaschl, Medium, Oct 6, 2023](https://medium.com/data-science/forget-rag-the-future-is-rag-fusion-1147298d8ad1)
+
+  pdf version: [here](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/vector_retrieval/Forget_RAG_the_Future_is_RAG-Fusion_by_Adrian_Raudaschl_TDS_2023.pdf)
+
+[RAG-Fusion: a New Take on Retrieval-Augmented Generation, Zackary Rackauckas, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/vector_retrieval/RAG-Fusion-a_New_Take_on_Retrieval-Augmented_Generation_Rackauskas_2024.pdf)
 
 
 ### Multi-Turn Conversations and Multi-Turn Reasoning
