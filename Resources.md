@@ -8,6 +8,8 @@
 
 [Retrieval-Augmented Generation for Large Language Models: A Survey, Y. Gao et al, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/Retrieval-Augmented_Generation_for_Large_Language_Models-A_Survey_Gao_2024.pdf)
 
+[Building a Complex, Production-Ready RAG System with LangChain, LangGraph, and RAGAS, Fareed Khan, Medium, July 2025](https://levelup.gitconnected.com/building-a-complex-production-ready-rag-system-with-langchain-langgraph-and-ragas-36a66d663c5c)
+
 [Retrieval-Augmented Generation (RAG) from basics to advanced, Tejpal Kumawat, Medium, 2024](https://medium.com/@tejpal.abhyuday/retrieval-augmented-generation-rag-from-basics-to-advanced-a2b068fd576c)
 
 [Retrieval-Augmented Generation (RAG) using LangChain, LlamaIndex, and OpenAI, Medium, Prasad Mahamulkar, 2024](https://pub.towardsai.net/introduction-to-retrieval-augmented-generation-rag-using-langchain-and-lamaindex-bd0047628e2a)
@@ -101,6 +103,8 @@ related Medium article:
 [GraphRAG Explained: Enhancing RAG with Knowledge Graphs, Zilliz, Medium, 2024](https://medium.com/@zilliz_learn/graphrag-explained-enhancing-rag-with-knowledge-graphs-3312065f99e1)
 
 [The Ontology Pipeline: A Semantic Knowledge Management Framework, substack article, Jessica Talisman, May 26, 2025](https://substack.com/home/post/p-164506870)
+
+[Why Semantic Parsing is So Painful (GraphRAG), Ngoc, Medium, 2025](https://jupyter2607.medium.com/why-semantic-parsing-is-so-painful-my-graphrag-journey-47b636c698d3)
 
 ### Knowledge Graphs
 
