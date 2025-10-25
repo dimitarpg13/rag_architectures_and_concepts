@@ -138,6 +138,10 @@ memgraph: open source graph DB compatible with Neo4J: https://github.com/memgrap
 
 [Caching LLMs Response With MongoDB Atlas and Vector Search, Kanin Kearpimy, MongoDB, 2024](https://www.mongodb.com/developer/products/atlas/llm_caching_with_mongodb/)
 
+### Retrieval-Pretrained Transformer
+
+[Retrieval-Pretrained Transformer: Long-range Language Modeling with Self-retrieval, Ohad Rubin, Jonathan Berant, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/vector_retrieval/Retrieval-Pretrained_Transformer-Long-range_Language_Modeling_with_Self-retrieval_Rubin_2024.pdf)
+
 
 ### the current state-of-the-art in LLMs
 
