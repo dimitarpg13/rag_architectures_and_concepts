@@ -165,4 +165,4 @@ memgraph: open source graph DB compatible with Neo4J: https://github.com/memgrap
 
 [Memory Augmented Generation: Adding Writable Memory to LLMs, blog at mag.bearblog.dev, 2025](https://mag.bearblog.dev/memory-augmented-generation-adding-writable-memory-to-llms/)
 
-[LightMem: Lightweight and Efficient Memory-Augmented Generation, J. Fang et al, 2025](LightMem: Lightweight and Efficient Memory-Augmented Generation, J. Fang et al, 2025)
+[LightMem: Lightweight and Efficient Memory-Augmented Generation, J. Fang et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/memory/LightMem-Lightweight_and_Efficient_Memory-Augmented_Generation_Fang_2025.pdf)
