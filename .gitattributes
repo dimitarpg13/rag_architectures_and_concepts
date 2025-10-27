@@ -21,3 +21,4 @@ articles/multi-turn_reasoning/Reinforcing_Multi-Turn_Reasoning_in_LLM_Agents_via
 articles/vector_retrieval/Forget_RAG_the_Future_is_RAG-Fusion_by_Adrian_Raudaschl_TDS_2023.pdf filter=lfs diff=lfs merge=lfs -text
 articles/vector_retrieval/Retrieval-Pretrained_Transformer-Long-range_Language_Modeling_with_Self-retrieval_Rubin_2024.pdf filter=lfs diff=lfs merge=lfs -text
 articles/memory/LightMem-Lightweight_and_Efficient_Memory-Augmented_Generation_Fang_2025.pdf filter=lfs diff=lfs merge=lfs -text
+articles/memory/Memorizing_Transformers_Wu_2022.pdf filter=lfs diff=lfs merge=lfs -text
