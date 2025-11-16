@@ -142,6 +142,13 @@ memgraph: open source graph DB compatible with Neo4J: https://github.com/memgrap
 
 [Retrieval-Pretrained Transformer: Long-range Language Modeling with Self-retrieval, Ohad Rubin, Jonathan Berant, 2024](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/vector_retrieval/Retrieval-Pretrained_Transformer-Long-range_Language_Modeling_with_Self-retrieval_Rubin_2024.pdf)
 
+### Memory-Augmented Generation
+
+[Memory Augmented Generation: Adding Writable Memory to LLMs, blog at mag.bearblog.dev, 2025](https://mag.bearblog.dev/memory-augmented-generation-adding-writable-memory-to-llms/)
+
+[LightMem: Lightweight and Efficient Memory-Augmented Generation, J. Fang et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/memory/LightMem-Lightweight_and_Efficient_Memory-Augmented_Generation_Fang_2025.pdf)
+
+[Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces, Shreyas Rajesh et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/memory/Beyond_Fact_Retrieval-Episodic_Memory_for_RAG_with_Generative_Semantic_Workspaces_Rajesh_2025.pdf)
 
 ### the current state-of-the-art in LLMs
 
@@ -163,8 +170,3 @@ memgraph: open source graph DB compatible with Neo4J: https://github.com/memgrap
 
 [A Survey of Self-Evolving Agents: On Path to Artificial Super Intelligence, H. Gao et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/A_Survey_of_Self-Evolving_Agents-On_Path_to_Artificial_Super_Intelligence_Gao_2025.pdf)
 
-[Memory Augmented Generation: Adding Writable Memory to LLMs, blog at mag.bearblog.dev, 2025](https://mag.bearblog.dev/memory-augmented-generation-adding-writable-memory-to-llms/)
-
-[LightMem: Lightweight and Efficient Memory-Augmented Generation, J. Fang et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/memory/LightMem-Lightweight_and_Efficient_Memory-Augmented_Generation_Fang_2025.pdf)
-
-[Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces, Shreyas Rajesh et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/memory/Beyond_Fact_Retrieval-Episodic_Memory_for_RAG_with_Generative_Semantic_Workspaces_Rajesh_2025.pdf)
