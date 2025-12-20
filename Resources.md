@@ -1,4 +1,4 @@
-# RAG Architectures and Related Concepts
+# RAG Architectures, Agentic Systems, and Related Concepts
 
 ## articles and videos
 
