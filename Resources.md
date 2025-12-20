@@ -150,6 +150,14 @@ memgraph: open source graph DB compatible with Neo4J: https://github.com/memgrap
 
 [Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces, Shreyas Rajesh et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/memory/Beyond_Fact_Retrieval-Episodic_Memory_for_RAG_with_Generative_Semantic_Workspaces_Rajesh_2025.pdf)
 
+### Evaluation and Verification
+
+[Evaluation of Retrieval-Augmented Generation: A Survey, H. Yu et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/evaluation/Evaluation_of_Retrieval-Augmented_Generation-A_Survey_Yu_2024.pdf)
+
+[Semantic Grounding Index: Geometric Bounds on Context Engagement in RAG Systems, Javier Marin, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/evaluation/Semantic_Grounding_Index-Geometric_Bounds_on_Context_Engagement_in_RAG_Systems_Marin_2025.pdf)
+
+[The Geometry of Truth, Samuel Marks, Max Tegmark, Conference on Language Modeling, 2024 (youtube video)](https://www.youtube.com/watch?v=x873VHafF40)
+
 ### the current state-of-the-art in LLMs
 
 [The Big LLM Architecture Comparison: From DeepSeek-V3 to Kimi K2: A Look At Modern LLM Architecture Design, Sebastian Raschka, Jul 19, 2025](https://sebastianraschka.com/blog/2025/the-big-llm-architecture-comparison.html)
