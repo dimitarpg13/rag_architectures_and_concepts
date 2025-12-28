@@ -38,6 +38,8 @@ materials on Retrieval-Augmented Generation designs , concepts and related techn
 
  * [Retrieval-Augmented Generation Concepts, Architectures and Algorithms](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/Resources.md)
 
+ * [Agentic Architectures and Design Patterns](https://github.com/dimitarpg13/agentic_architectures_and_design_patterns/blob/main/Resources.md)
+
  * [Hypothesis Testing, Estimation of Treatment Effects and Generalized Synthetic Control](https://github.com/dimitarpg13/generalized_synthetic_control_for_testops/blob/main/Resources.md)
  
  * [Graphs and Dynamic Programming](https://github.com/dimitarpg13/graphs_and_dynamic_programming/blob/master/Resources.md)
