@@ -26,3 +26,4 @@ articles/memory/Beyond_Fact_Retrieval-Episodic_Memory_for_RAG_with_Generative_Se
 articles/evaluation/Evaluation_of_Retrieval-Augmented_Generation-A_Survey_Yu_2024.pdf filter=lfs diff=lfs merge=lfs -text
 articles/evaluation/Semantic_Grounding_Index-Geometric_Bounds_on_Context_Engagement_in_RAG_Systems_Marin_2025.pdf filter=lfs diff=lfs merge=lfs -text
 articles/memory/Memory_in_the_Age_of_AI_Agents-A_Survey_Forms_Functions_and_Dynamics_Hu_2025.pdf filter=lfs diff=lfs merge=lfs -text
+articles/evaluation/Knowledge-Graph_Based_RAG_System_Evaluation_Framework_Dong_2025.pdf filter=lfs diff=lfs merge=lfs -text
