@@ -158,6 +158,8 @@ memgraph: open source graph DB compatible with Neo4J: https://github.com/memgrap
 
 [Evaluation of Retrieval-Augmented Generation: A Survey, H. Yu et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/evaluation/Evaluation_of_Retrieval-Augmented_Generation-A_Survey_Yu_2024.pdf)
 
+[Knowledge-Graph Based RAG System Evaluation Framework, S. Dong et al, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/tree/main/articles/evaluation)
+
 [Semantic Grounding Index: Geometric Bounds on Context Engagement in RAG Systems, Javier Marin, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/evaluation/Semantic_Grounding_Index-Geometric_Bounds_on_Context_Engagement_in_RAG_Systems_Marin_2025.pdf)
 
 [The Geometry of Truth, Samuel Marks, Max Tegmark, Conference on Language Modeling, 2024 (youtube video)](https://www.youtube.com/watch?v=x873VHafF40)
