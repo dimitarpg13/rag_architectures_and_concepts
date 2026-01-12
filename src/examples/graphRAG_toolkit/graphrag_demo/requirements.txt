@@ -1,0 +1,11 @@
+# GraphRAG Toolkit Demo Requirements
+# Python 3.10-3.12 required
+
+graphrag>=1.0.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+pandas>=2.0.0
+networkx>=3.0
+matplotlib>=3.7.0
+pyarrow>=14.0.0  # For parquet file support
+
