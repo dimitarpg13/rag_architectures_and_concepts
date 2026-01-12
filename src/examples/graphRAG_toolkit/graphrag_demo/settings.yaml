@@ -1,0 +1,38 @@
+llm:
+  api_key: ${GRAPHRAG_API_KEY}
+  type: openai_chat
+  model: gpt-4o-mini
+  model_supports_json: true
+  max_tokens: 4000
+  temperature: 0
+embeddings:
+  llm:
+    api_key: ${GRAPHRAG_API_KEY}
+    type: openai_embedding
+    model: text-embedding-3-small
+input:
+  type: file
+  file_type: text
+  base_dir: input
+  file_encoding: utf-8
+  file_pattern: .*\.txt
+storage:
+  type: file
+  base_dir: output
+cache:
+  type: file
+  base_dir: cache
+reporting:
+  type: file
+  base_dir: logs
+chunks:
+  size: 1200
+  overlap: 100
+entity_extraction:
+  max_gleanings: 1
+claim_extraction:
+  enabled: true
+community_reports:
+  max_length: 2000
+cluster_graph:
+  max_cluster_size: 10
