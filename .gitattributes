@@ -29,3 +29,4 @@ articles/memory/Memory_in_the_Age_of_AI_Agents-A_Survey_Forms_Functions_and_Dyna
 articles/evaluation/Knowledge-Graph_Based_RAG_System_Evaluation_Framework_Dong_2025.pdf filter=lfs diff=lfs merge=lfs -text
 articles/knowledge_graphs/Higher-Order_Knowledge_Representations_for_Agentic_Scientific_Reasoning_Stewart_2026.pdf filter=lfs diff=lfs merge=lfs -text
 articles/ann/Efficient_and_robust_approximate_nearest_neighbor_search_using_Hierarchical_Navigable_Small_World_graphs_Malkov_2016.pdf filter=lfs diff=lfs merge=lfs -text
+articles/ann/Approximate_Nearest_Neighbor_Search_Small_World_Approach_Ponomarenko_2011.pdf filter=lfs diff=lfs merge=lfs -text
