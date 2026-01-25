@@ -41,7 +41,7 @@ Necati Demir, 2025](https://blog.demir.io/advanced-rag-implementing-advanced-tec
 
 [KERAP: A Knowledge-Enhanced Reasoning Approach for Accurate Zero-shot Diagnosis Prediction Using Multi-agent LLMs, Y. Xie et al, Stanford, 2025](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/KERAP-A_Knowledge-Enhanced_Reasoning_Approach_for_Accurate_Zero-shot_Diagnosis_Prediction_Using_Multi-agent_LLMs_Xie_2025.pdf)
 
-[RAG Collapses: Reasoning with Conflicting Knowledge, DiscoverAI, Jan 25, 2026](https://www.youtube.com/watch?v=BmzdS-a-G8g)
+[RAG Collapses: Reasoning with Conflicting Knowledge, DiscoverAI, Jan 25, 2026 (youtube video)](https://www.youtube.com/watch?v=BmzdS-a-G8g)
 
 ### Agentic RAG
 
