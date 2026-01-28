@@ -22,7 +22,7 @@
 
 * Example: "Who does Alice influence?" → Answer: **Bob, Carol, David** (set of people)
 
-The Question posed in [RELATIONSHIP_search_example.md](https://github.com/nike-edaaml/genai_tutorials/blob/main/eval_frameworks/docs/graphrag_eval_questions/RELATIONSHIP_search_example.md) **IS Partially DRIFT**
+The Question posed in [RELATIONSHIP_search_example.md](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/docs/evaluation/graphrag_search_examples/RELATIONSHIP_search_example.md) **IS Partially DRIFT**
 
 The question **"Who are all the people that Alice has direct or indirect influence over?"** does involve:
 
@@ -94,5 +94,5 @@ Bob's role?"   collaborate with?"    Alice's mentee's  common skill?"
                 connections)         (specific path)
 ```
 
-The question posed in [RELATIONSHIP_search_example.md](https://github.com/nike-edaaml/genai_tutorials/blob/main/eval_frameworks/docs/graphrag_eval_questions/RELATIONSHIP_search_example.md) sits between **RELATIONSHIP** and **DRIFT** - it requires **DRIFT**-style traversal but asks for **RELATIONSHIP**-style network analysis.
+The question posed in [RELATIONSHIP_search_example.md](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/docs/evaluation/graphrag_search_examples/RELATIONSHIP_search_example.md) sits between **RELATIONSHIP** and **DRIFT** - it requires **DRIFT**-style traversal but asks for **RELATIONSHIP**-style network analysis.
 
