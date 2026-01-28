@@ -1,6 +1,6 @@
 ### Distinction between COMPLEX ANALYTICAL search and DRIFT search for evaluation of GraphRAG designs
 
-The **COMPLEX ANALYTICAL** question posed in [COMPLEX_ANALYTICAL_search_example.md](https://github.com/nike-edaaml/genai_tutorials/blob/main/eval_frameworks/docs/graphrag_eval_questions/COMPLEX_ANALYTICAL_search_example.md) is NOT a **DRIFT** search, though it may contain some **DRIFT**-like traversal as a component.
+The **COMPLEX ANALYTICAL** question posed in [COMPLEX_ANALYTICAL_search_example.md](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/docs/evaluation/graphrag_search_examples/COMPLEX_ANALYTICAL_search_example.md) is NOT a **DRIFT** search, though it may contain some **DRIFT**-like traversal as a component.
 
 #### Key Distinctions
 
