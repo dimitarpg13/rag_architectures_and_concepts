@@ -116,6 +116,10 @@ related Medium article:
 
 memgraph: open source graph DB compatible with Neo4J: https://github.com/memgraph/memgraph
 
+### Code Generation
+
+[Context-Augmented Code Generation Using Programming Knowledge Graphs, Shahd Seddik et al, U of British Columbia, 2026](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/programming_knowledge_graph/Context-Augmented_Code_Generation_Using_Programming_Knowledge_Graphs_Seddik_2026.pdf)
+
 ### Vector Databases
 
 [Integrate MongoDB with LangChain, MongoDB online article](https://www.mongodb.com/docs/atlas/ai-integrations/langchain/)
