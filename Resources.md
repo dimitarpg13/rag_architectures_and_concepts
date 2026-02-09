@@ -112,6 +112,8 @@ related Medium article:
 
 [Knowledge Graphs are Implicit Reward Models: Path-Derived Signals Enable Compositional Reasoning, Yuval Kansal, Niraj K. Jha, Princeton U., 2026](articles/knowledge_graphs/Knowledge_Graphs_are_Implicit_Reward_Models-Path-Derived_Signals_Enable_Compositional_Reasoning_Kansal_2026.pdf)
 
+[How a 14B Model BEATS GPT-5.2 | FUZZY Graph Reward, Discover AI, Jan 27th, 2026 (youtube video)](https://youtu.be/KV-uZzE78qA?si=7YgSE6KgQykY7Yhm)
+
 [Knowledge Graphs, Aidan Hogan et al, 2021](https://github.com/dimitarpg13/rag_architectures_and_concepts/blob/main/articles/knowledge_graphs/KnowledgeGraphs_Hogan_2021.pdf)
 
 [Introducing the Knowledge Graph: things, not strings, Google blog, Amit Singhal, 2012](https://blog.google/products/search/introducing-knowledge-graph-things-not/)
