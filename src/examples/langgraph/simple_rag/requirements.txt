@@ -1,0 +1,9 @@
+langchain>=1.2.10
+langchain-community>=0.4.1
+langchain-openai>=1.1.10
+langchain-text-splitters>=1.1.1
+langchainhub>=0.1.21
+langgraph>=1.0.9
+beautifulsoup4>=4.14.3
+python-dotenv>=1.2.1
+typing-extensions>=4.15.0
