@@ -36,7 +36,7 @@ flowchart TB
     subgraph MCP_Layer["MCP Server Layer"]
         direction LR
         MCP1["MCP Server 1<br/>Vector Store<br/>(FAISS / Qdrant)"]
-        MCP2["MCP Server 2<br/>Knowledge Graph<br/>(Neo4j)"]
+        MCP2["MCP Server 2<br/>Knowledge Graph<br/>(Microsoft GraphRAG)"]
         MCP3["MCP Server 3<br/>Structured DB<br/>(PostgreSQL)"]
         MCP4["MCP Server 4<br/>Document Store<br/>(Confluence / S3)"]
         MCP5["MCP Server 5<br/>Web Search<br/>(Brave API)"]
@@ -67,7 +67,7 @@ flowchart TB
     MCP5 --> WEB
 
     MCP1 -->|"ranked chunks"| RF
-    MCP2 -->|"subgraph / triples"| RF
+    MCP2 -->|"GraphRAG answer"| RF
     MCP3 -->|"SQL results"| RF
     MCP4 -->|"doc excerpts"| RF
     MCP5 -->|"web snippets"| RF
@@ -148,9 +148,9 @@ sequenceDiagram
         MCP_VS-->>Orch: {chunks: [...], scores: [...]}
         deactivate MCP_VS
     and
-        Orch->>MCP_KG: tools/call → graph_query(entities, depth=2)
+        Orch->>MCP_KG: tools/call → graph_search(query, method="local")
         activate MCP_KG
-        MCP_KG-->>Orch: {triples: [...], subgraph: {...}}
+        MCP_KG-->>Orch: {query: "...", method: "local", answer: "..."}
         deactivate MCP_KG
     end
 
@@ -207,9 +207,9 @@ sequenceDiagram
 
 **Phase 1 — Parallel Fan-Out**: The vector store and knowledge graph are queried simultaneously because they are independent sources. This is a core benefit of the MCP architecture: each server is a self-contained service that can be invoked concurrently. LangGraph's fan-out/fan-in pattern maps directly to this, with each MCP call as a parallel branch.
 
-**Phase 2 — Dependent Retrieval**: The structured database query depends on entities extracted from the knowledge graph results. This is multi-hop retrieval — something a simple "call all servers at once" approach cannot do. The agentic orchestrator enables this by inspecting intermediate results and constructing follow-up queries dynamically.
+**Phase 2 — Dependent Retrieval**: The structured database query may depend on entities mentioned in the GraphRAG answer. This is multi-hop retrieval — something a simple "call all servers at once" approach cannot do. The agentic orchestrator enables this by inspecting intermediate results (including the GraphRAG-generated answer text) and constructing follow-up queries dynamically.
 
-**Phase 3 — Fusion & Quality Check**: Results from heterogeneous sources (vector similarity scores, graph triples, SQL rows) are normalized and merged. The quality gate acts as a circuit breaker — if context is poor, we don't waste an expensive LLM generation call on bad input.
+**Phase 3 — Fusion & Quality Check**: Results from heterogeneous sources (vector similarity scores, GraphRAG answers, SQL rows) are normalized and merged. The quality gate acts as a circuit breaker — if context is poor, we don't waste an expensive LLM generation call on bad input.
 
 **Phase 4 — Iterative Refinement**: When the initial retrieval is insufficient (relevance score 0.62 below the 0.75 threshold), the orchestrator reformulates the query using partial context as a hint. This is the single most impactful advantage of agentic orchestration: the ability to self-correct. Static RAG pipelines have no mechanism for this.
 
@@ -514,10 +514,14 @@ classDiagram
         +execute(args: dict) ToolResult
     }
 
-    class GraphQueryTool {
-        -driver: Neo4jDriver
-        -cypher_generator: CypherGenerator
-        +execute(args: dict) ToolResult
+    class GraphSearchTool {
+        -graphrag_dir: Path
+        -entities_df: DataFrame
+        -relationships_df: DataFrame
+        +graph_search(query: str, method: str) str
+        +list_entities() str
+        +search_entities(keyword: str) str
+        +get_relationships(entity: str) str
     }
 
     class SQLQueryTool {
@@ -574,7 +578,7 @@ classDiagram
     ToolRegistry --> Tool : manages *
 
     Tool <|.. SemanticSearchTool : implements
-    Tool <|.. GraphQueryTool : implements
+    Tool <|.. GraphSearchTool : implements
     Tool <|.. SQLQueryTool : implements
     Tool <|.. DocumentSearchTool : implements
 
@@ -590,7 +594,7 @@ classDiagram
 
 **MCPServer** acts as the protocol adapter, translating MCP JSON-RPC messages into tool invocations. Each server is a standalone process (or container), enabling independent scaling and deployment. A vector-heavy workload might run on GPU-equipped nodes, while the SQL server runs on standard compute.
 
-**Tool abstraction**: Each retrieval capability is encapsulated as a `Tool` implementation. This provides clean separation of concerns — the MCP protocol layer knows nothing about FAISS or Neo4j. New retrieval capabilities are added by implementing the `Tool` interface and registering it.
+**Tool abstraction**: Each retrieval capability is encapsulated as a `Tool` implementation. This provides clean separation of concerns — the MCP protocol layer knows nothing about FAISS or GraphRAG internals. New retrieval capabilities are added by implementing the `Tool` interface and registering it. The `GraphSearchTool` delegates to Microsoft GraphRAG's CLI for both local search (entity-focused) and global search (corpus-wide synthesis), while also providing direct access to extracted entities and relationships via parquet output files.
 
 **IndexBackend (Strategy Pattern again)**: The vector search tool delegates to a pluggable backend. This enables switching from FAISS (great for development and moderate scale) to Qdrant (better for production with filtering, multi-tenancy, and horizontal scaling) without changing the tool logic.
 
@@ -805,7 +809,7 @@ flowchart TB
 
         subgraph MCPServers["MCP Server Pods"]
             MS1["MCP: Vector Store<br/>(GPU node)"]
-            MS2["MCP: Knowledge Graph<br/>(Standard node)"]
+            MS2["MCP: Knowledge Graph<br/>(GraphRAG node)"]
             MS3["MCP: SQL DB<br/>(Standard node)"]
             MS4["MCP: Doc Store<br/>(Standard node)"]
             MS5["MCP: Web Search<br/>(Standard node)"]
@@ -822,7 +826,7 @@ flowchart TB
 
     subgraph External["External Data Sources"]
         QDRANT["Qdrant<br/>Cluster"]
-        NEO["Neo4j<br/>Cluster"]
+        GRAPHRAG["GraphRAG<br/>Index (Parquet)"]
         PG["PostgreSQL"]
         CONF["Confluence<br/>API"]
         BRAVE["Brave<br/>Search API"]
@@ -843,7 +847,7 @@ flowchart TB
     O3 --> REDIS
 
     MS1 --> QDRANT
-    MS2 --> NEO
+    MS2 --> GRAPHRAG
     MS3 --> PG
     MS4 --> CONF
     MS5 --> BRAVE

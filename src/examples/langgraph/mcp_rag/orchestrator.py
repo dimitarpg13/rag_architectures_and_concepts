@@ -205,11 +205,10 @@ async def plan_routes(state: OrchestratorState) -> dict:
                 arguments={"query": query, "top_k": 5},
             )))
         elif domain == "knowledge_graph":
-            entity = entities[0] if entities else query.split()[0]
             parallel_group.append(asdict(ServerCall(
                 server_name="knowledge_graph",
-                tool_name="graph_query",
-                arguments={"entity": entity, "depth": 2},
+                tool_name="graph_search",
+                arguments={"query": query, "method": "local"},
             )))
         elif domain == "structured_db":
             keyword = entities[0] if entities else query.split()[-1]
@@ -280,17 +279,16 @@ def _parse_retrieval_result(source: str, tool: str, raw: dict | list) -> list[Re
                 metadata=entry.get("metadata", {}),
             ))
 
-    elif tool == "graph_query" and isinstance(raw, dict):
-        triples = raw.get("triples", [])
-        for i, triple in enumerate(triples):
-            text = f"{triple['subject']} --[{triple['predicate']}]--> {triple['object']}"
+    elif tool == "graph_search" and isinstance(raw, dict):
+        answer = raw.get("answer", "")
+        if answer:
             items.append(RetrievedItem(
-                content=text,
-                score=1.0 / (i + 1),
+                content=answer,
+                score=1.0,
                 source=source,
-                source_id=f"triple_{i}",
-                item_type="triple",
-                metadata=triple,
+                source_id=f"graphrag_{raw.get('method', 'local')}",
+                item_type="graph_answer",
+                metadata={"method": raw.get("method", "local"), "query": raw.get("query", "")},
             ))
 
     elif tool == "search_techniques" and isinstance(raw, list):

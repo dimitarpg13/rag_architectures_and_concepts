@@ -5,3 +5,7 @@ langgraph>=1.0.9
 openai>=2.20.0
 numpy>=1.26.0
 python-dotenv>=1.2.1
+graphrag>=2.7.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+pyyaml>=6.0
