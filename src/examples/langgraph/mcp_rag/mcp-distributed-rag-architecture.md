@@ -35,20 +35,20 @@ flowchart TB
 
     subgraph MCP_Layer["MCP Server Layer"]
         direction LR
-        MCP1["MCP Server 1\nVector Store\n(FAISS / Qdrant)"]
-        MCP2["MCP Server 2\nKnowledge Graph\n(Neo4j)"]
-        MCP3["MCP Server 3\nStructured DB\n(PostgreSQL)"]
-        MCP4["MCP Server 4\nDocument Store\n(Confluence / S3)"]
-        MCP5["MCP Server 5\nWeb Search\n(Brave API)"]
+        MCP1["MCP Server 1<br/>Vector Store<br/>(FAISS / Qdrant)"]
+        MCP2["MCP Server 2<br/>Knowledge Graph<br/>(Neo4j)"]
+        MCP3["MCP Server 3<br/>Structured DB<br/>(PostgreSQL)"]
+        MCP4["MCP Server 4<br/>Document Store<br/>(Confluence / S3)"]
+        MCP5["MCP Server 5<br/>Web Search<br/>(Brave API)"]
     end
 
     subgraph Data["Data Sources"]
         direction LR
-        VS[("Vector\nIndex")]
-        KG[("Knowledge\nGraph")]
-        DB[("Relational\nDB")]
-        DS[("Document\nStore")]
-        WEB[("Web\nIndex")]
+        VS[("Vector<br/>Index")]
+        KG[("Knowledge<br/>Graph")]
+        DB[("Relational<br/>DB")]
+        DS[("Document<br/>Store")]
+        WEB[("Web<br/>Index")]
     end
 
     U --> QC
@@ -606,39 +606,39 @@ This flowchart details the internal state machine of the LangGraph orchestrator,
 flowchart TB
     START((Start)) --> classify
 
-    classify["classify_query\n─────────\nDetermine query type,\nextract entities,\nassess complexity"]
+    classify["classify_query<br/>─────────<br/>Determine query type,<br/>extract entities,<br/>assess complexity"]
 
     classify --> plan
 
-    plan["plan_routes\n─────────\nSelect MCP servers,\ndefine execution order,\nset timeouts"]
+    plan["plan_routes<br/>─────────<br/>Select MCP servers,<br/>define execution order,<br/>set timeouts"]
 
     plan --> retrieve
 
-    retrieve["retrieve_parallel\n─────────\nFan-out to MCP servers,\ncollect results,\nhandle timeouts/errors"]
+    retrieve["retrieve_parallel<br/>─────────<br/>Fan-out to MCP servers,<br/>collect results,<br/>handle timeouts/errors"]
 
-    retrieve --> check_multihop{"Needs\nmulti-hop?"}
+    retrieve --> check_multihop{"Needs<br/>multi-hop?"}
 
-    check_multihop -->|"Yes"| hop_retrieve["retrieve_dependent\n─────────\nExtract entities from\ninitial results,\nquery dependent sources"]
+    check_multihop -->|"Yes"| hop_retrieve["retrieve_dependent<br/>─────────<br/>Extract entities from<br/>initial results,<br/>query dependent sources"]
 
     check_multihop -->|"No"| fuse
 
     hop_retrieve --> fuse
 
-    fuse["fuse_results\n─────────\nNormalize scores,\napply RRF/weighted fusion,\nrank merged results"]
+    fuse["fuse_results<br/>─────────<br/>Normalize scores,<br/>apply RRF/weighted fusion,<br/>rank merged results"]
 
-    fuse --> gate{"Quality\nsufficient?"}
+    fuse --> gate{"Quality<br/>sufficient?"}
 
     gate -->|"Yes"| compress
 
-    gate -->|"No, iteration < 3"| reformulate["reformulate_query\n─────────\nRewrite query using\npartial context,\nexpand/decompose"]
+    gate -->|"No, iteration < 3"| reformulate["reformulate_query<br/>─────────<br/>Rewrite query using<br/>partial context,<br/>expand/decompose"]
 
     gate -->|"No, iteration >= 3"| compress
 
     reformulate --> retrieve
 
-    compress["compress_context\n─────────\nTruncate to token budget,\nsummarize if needed,\npreserve top-ranked items"]
+    compress["compress_context<br/>─────────<br/>Truncate to token budget,<br/>summarize if needed,<br/>preserve top-ranked items"]
 
-    compress --> generate["generate_response\n─────────\nLLM generation with\nfused context,\ninclude citations"]
+    compress --> generate["generate_response<br/>─────────<br/>LLM generation with<br/>fused context,<br/>include citations"]
 
     generate --> END((End))
 
@@ -680,28 +680,28 @@ flowchart TB
 ```mermaid
 flowchart LR
     subgraph Sources["Retrieved Content"]
-        S1["Source 1\n~2000 tokens"]
-        S2["Source 2\n~1500 tokens"]
-        S3["Source 3\n~3000 tokens"]
-        S4["Source 4\n~800 tokens"]
-        S5["Source 5\n~1200 tokens"]
+        S1["Source 1<br/>~2000 tokens"]
+        S2["Source 2<br/>~1500 tokens"]
+        S3["Source 3<br/>~3000 tokens"]
+        S4["Source 4<br/>~800 tokens"]
+        S5["Source 5<br/>~1200 tokens"]
     end
 
     subgraph Fusion["Fusion & Ranking"]
-        F["RRF Merge\n& Rerank"]
+        F["RRF Merge<br/>& Rerank"]
     end
 
     subgraph Budget["Token Budget: 4096"]
-        B1["Top chunks\n~3000 tokens"]
-        B2["Summarized overflow\n~800 tokens"]
-        B3["Source citations\n~296 tokens"]
+        B1["Top chunks<br/>~3000 tokens"]
+        B2["Summarized overflow<br/>~800 tokens"]
+        B3["Source citations<br/>~296 tokens"]
     end
 
     subgraph Generation["LLM Prompt"]
-        SYS["System prompt\n~500 tokens"]
-        CTX["Context\n4096 tokens"]
-        Q["Query\n~100 tokens"]
-        RES["Reserved for\nresponse\n~2000 tokens"]
+        SYS["System prompt<br/>~500 tokens"]
+        CTX["Context<br/>4096 tokens"]
+        Q["Query<br/>~100 tokens"]
+        RES["Reserved for<br/>response<br/>~2000 tokens"]
     end
 
     S1 --> F
@@ -737,23 +737,23 @@ flowchart TB
     end
 
     subgraph Telemetry["Telemetry Layer"]
-        SPAN["Distributed Traces\n(OpenTelemetry)"]
-        METRICS["Metrics\n(Prometheus)"]
-        LOGS["Structured Logs\n(JSON)"]
+        SPAN["Distributed Traces<br/>(OpenTelemetry)"]
+        METRICS["Metrics<br/>(Prometheus)"]
+        LOGS["Structured Logs<br/>(JSON)"]
     end
 
     subgraph Monitoring["Monitoring Stack"]
-        JAEGER["Jaeger\nTrace Visualization"]
-        GRAFANA["Grafana\nDashboards"]
-        MLFLOW["MLflow\nExperiment Tracking"]
+        JAEGER["Jaeger<br/>Trace Visualization"]
+        GRAFANA["Grafana<br/>Dashboards"]
+        MLFLOW["MLflow<br/>Experiment Tracking"]
     end
 
     subgraph Alerts["Key Metrics"]
-        A1["Retrieval latency\nper MCP server"]
-        A2["Fusion quality score\ndistribution"]
-        A3["Refinement loop\niteration count"]
-        A4["Token budget\nutilization"]
-        A5["MCP server\navailability"]
+        A1["Retrieval latency<br/>per MCP server"]
+        A2["Fusion quality score<br/>distribution"]
+        A3["Refinement loop<br/>iteration count"]
+        A4["Token budget<br/>utilization"]
+        A5["MCP server<br/>availability"]
     end
 
     N1 -.-> SPAN
@@ -798,34 +798,34 @@ flowchart TB
         end
 
         subgraph Orchestration["Orchestrator Pods"]
-            O1["Orchestrator\nReplica 1"]
-            O2["Orchestrator\nReplica 2"]
-            O3["Orchestrator\nReplica 3"]
+            O1["Orchestrator<br/>Replica 1"]
+            O2["Orchestrator<br/>Replica 2"]
+            O3["Orchestrator<br/>Replica 3"]
         end
 
         subgraph MCPServers["MCP Server Pods"]
-            MS1["MCP: Vector Store\n(GPU node)"]
-            MS2["MCP: Knowledge Graph\n(Standard node)"]
-            MS3["MCP: SQL DB\n(Standard node)"]
-            MS4["MCP: Doc Store\n(Standard node)"]
-            MS5["MCP: Web Search\n(Standard node)"]
+            MS1["MCP: Vector Store<br/>(GPU node)"]
+            MS2["MCP: Knowledge Graph<br/>(Standard node)"]
+            MS3["MCP: SQL DB<br/>(Standard node)"]
+            MS4["MCP: Doc Store<br/>(Standard node)"]
+            MS5["MCP: Web Search<br/>(Standard node)"]
         end
 
         subgraph Cache["Caching Layer"]
-            REDIS["Redis\nResult Cache"]
+            REDIS["Redis<br/>Result Cache"]
         end
 
         subgraph Queue["Async Processing"]
-            KAFKA["Kafka\nIndex Update Events"]
+            KAFKA["Kafka<br/>Index Update Events"]
         end
     end
 
     subgraph External["External Data Sources"]
-        QDRANT["Qdrant\nCluster"]
-        NEO["Neo4j\nCluster"]
+        QDRANT["Qdrant<br/>Cluster"]
+        NEO["Neo4j<br/>Cluster"]
         PG["PostgreSQL"]
-        CONF["Confluence\nAPI"]
-        BRAVE["Brave\nSearch API"]
+        CONF["Confluence<br/>API"]
+        BRAVE["Brave<br/>Search API"]
     end
 
     LB --> O1
